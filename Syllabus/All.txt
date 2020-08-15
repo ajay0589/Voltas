@@ -1,3 +1,7 @@
+https://www.seleniumeasy.com/
+https://www.toolsqa.com/
+
+
 Java
 Selenium
 Maven

@@ -1,0 +1,9 @@
+/
+target
+.gitignore
+.project
+.classpath
+test-output
+bin
+.settings
+.git

@@ -18,6 +18,11 @@ Installation:
 1. Install it from eclipse market place
 2. Add dependency
 
+https://testng.org/doc/download.html
+
+https://dl.bintray.com/testng-team/testng-eclipse-release/.
+https://dl.bintray.com/testng-team/testng-eclipse-release/7.2.0/
+
 ================================================
 Annotations
 Assert statements
@@ -27,6 +32,52 @@ different ways of running your testcases
 
 Write testcases > push code github > jenkins will pull latest code from github > 
 jenkins job config > run job> runs all testcases > genarates reports > trigger mail with reports 
+
+
+
+==========================================================
+run from Maven  & jenkins
+
+
+Java:
+Files
+Exception handling
+Collections
+
+
+============================================================
+@Test
+@Before & @After 5+5 10
+@Parameter
+@DataProvider
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
