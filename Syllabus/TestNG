@@ -51,6 +51,41 @@ Collections
 @Parameter
 @DataProvider
 
+==============================================================
+chrome/firefox
+url
+username & password
+name,mail
+
+
+filled data > submitted > backend algorithm has performed > returned output (one user got created) > data
+
+
+Data:
+Configuration data
+Test Data 
+
+
+.txt, .csv, excel file, properties, yaml files
+
+
+read data from excel > pass it to data provider > data will be passed to testcase
+
+
+Variable, Methods
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -10,12 +10,6 @@ public class Chaining {
 
 		obj.test3().test4().test5();
 
-		// int f = obj.test1();
-
-		// int m = 26 + f;
-
-		// System.out.println(m);
-
 	}
 
 	Chaining test3() {
