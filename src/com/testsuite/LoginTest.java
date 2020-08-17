@@ -24,18 +24,17 @@ public class LoginTest {
 		 */
 	}
 
-	
 	@Test()
 	public void test2() {
 
 		Reporter.log("Printing something");
-		
+
 		System.out.println("In test method");
 		String expectedResult = "hello";
-		String actualResult = "hello2";
+		String actualResult = "hello";
 
 		Reporter.log("before assert");
-		
+
 		Assert.assertEquals(actualResult, expectedResult);
 
 		/*
@@ -44,8 +43,7 @@ public class LoginTest {
 		 * System.out.println("Test Failed"); }
 		 */
 	}
-	
-	
+
 	@BeforeMethod
 	void beforeMethod() {
 		System.out.println("in before method");
@@ -55,10 +53,5 @@ public class LoginTest {
 	void afterMethod() {
 		System.out.println("in after method");
 	}
-	
-
-
-	
-	
 
 }
