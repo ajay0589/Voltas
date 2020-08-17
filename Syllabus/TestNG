@@ -74,6 +74,60 @@ read data from excel > pass it to data provider > data will be passed to testcas
 
 Variable, Methods
 
+=====================================================================================
+parallel - methods, classes, tests
+
+Cross browser testing - chrome, safari
+Parallel testing - 100 - 2 150min
+Serially - 3min - 300min
+
+Failed test cases
+
+100
+80 20
+
+2 reasons
+wrong automation script - you have to fix it
+actual issue in functionality - manual transaction > report to dev > JIRA defect
+
+
+=====================================================================================
+Listener
+Reports - Extent reports, Allure reports
+Logging - Reporter
+     - Log4J
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

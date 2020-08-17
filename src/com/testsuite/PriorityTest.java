@@ -3,7 +3,7 @@ package com.testsuite;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-public class PriorityTests {
+public class PriorityTest {
 
 	@Parameters("browser")
 	@Test(priority = 2)

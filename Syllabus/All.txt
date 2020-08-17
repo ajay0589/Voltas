@@ -25,4 +25,48 @@ Java,Selenium,TestNG,Cucumber,POM framework
 Maven,SQL,API Testing
 GitHub,Jenkins, Agile methodology
 
+========================================================================
+
+Resume:
+Objective
+Professional summary
+Professional experience
+Academics
+Testing Skills
+Work Experience
+ Project details:
+   Tools used
+   project description
+   Roles Responsibilities    
+Achievements
+Personal Details
+
+=========================================
+Mock interviews:
+
+3 interview
+10 concepts
+1 - 5  Java,Selenium,TestNG, Programs 30min
+2 - 5 30min
+3 - 10 45min to 1hr
+
+==========================================
+Keep exploring
+Naukri, LinkedIn
+Update your profile
+Apply for jobs - Excel
+  Direct submit
+  Oracle - 10 to 15min - update username,password, company name
+  Brassings 
+
+
+
+
+
+
+
+
+
+
+
 
