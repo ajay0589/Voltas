@@ -4,5 +4,29 @@ Dependencies
 Plugins
 
 
+Maven goals:
+compile, clean, test, validate, install
+
+Maven Parameterisation
+
+Maven repository:
+Central repo - mvnrepository
+Local Repo - .m2
+Remote repo - settings.xml
+
+
+Writing code
+Maintaining
+
+
+====================================================
+maven commands
+batch files(.bat)/shell scripting(linux) 
+
+
+
+
+
+
 
 

@@ -1,0 +1,45 @@
+Tell me about yourself
+Explain your project
+Explain automation project
+
+
+Keyword/Datadriven/POM/Hybrid framework
+
+
+UI Automation + Testing - Web/Mobile
+
+Registration page - Class
+Login page - Class
+Home page - Class
+
+
+Registration page Class:
+Webelements
+Methods - actions which you are going to perform on that page
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

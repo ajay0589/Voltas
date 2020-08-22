@@ -1,0 +1,23 @@
+Jenkins(CI/CD) - DevOps
+
+Requirement > Development > Testing > Deploy
+
+
+Jenkins, Docker, Kubernetes, Azure
+
+
+
+
+QA 
+
+
+
+
+
+
+
+
+
+
+
+

@@ -2,17 +2,25 @@ https://www.seleniumeasy.com/
 https://www.toolsqa.com/
 
 
-Java
-Selenium
-Maven
-TestNG
-Cucumber
-JUnit
-GitHub - Repository - VCS
-Jenkins
-SQL Database
+Java - collections
+Selenium - POM framework - UI - browser
+Rest Assured - API - Postman,SoapUI
+Maven - Surefire plugin
+TestNG - 
+Cucumber - not covered
+JUnit - ignore
+GitHub - Repository - VCS - Commit, Push, Pull, Fetch, Merge, stateus, add, ".gitignore", branches(master)
+Jenkins - 
+SQL Database - MySQL
 POM framework
 Rest API
+
+
+UI, API - functioning
+70% UI + 30% API
+80% API + 20% UI
+
+
 
 
 IDE:
@@ -58,6 +66,47 @@ Apply for jobs - Excel
   Direct submit
   Oracle - 10 to 15min - update username,password, company name
   Brassings 
+
+=======================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
