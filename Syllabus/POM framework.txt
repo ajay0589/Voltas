@@ -13,9 +13,37 @@ Login page - Class
 Home page - Class
 
 
-Registration page Class:
+Home page Class:
 Webelements
+Constructor
 Methods - actions which you are going to perform on that page
+
+
+======================================================================
+
+AppSpecDriver
+Pages classes -> calling selenium methods 
+Testsuite classes - > calling page classes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
