@@ -15,6 +15,45 @@ SQL Database - MySQL
 POM framework
 Rest API
 
+===============================
+Reporting feature:
+TestNG - default feature
+ReportNG - ReportNG enhances default reporting
+
+Extent reporting - best reporting feature
+
+Cucumber - masterthought reports
+
+=================================================
+logging:
+TestNG - default logging (Reporter)
+Extent report - provides logging
+
+log4j, slf4j
+
+====================================================
+
+500 test cases
+
+basic architecture
+500 test cases
+
+maintenance
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 UI, API - functioning
 70% UI + 30% API

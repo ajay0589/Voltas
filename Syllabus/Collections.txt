@@ -1,0 +1,69 @@
+Arrays
+
+Collection > stores group of elements
+> class type variables
+> written on top of data structures
+
+> Collection(Interface) vs Collections(Class provides utility methods to work with all collection interfaces)
+> Arrays vs Collections
+
+
+
+
+> List
+> Set
+> Map
+> Queue
+> Tree
+
+Data structures > LIFO,FIFO
+ > stack, queue
+
+
+===================================================================
+Conversion
+
+Collections:
+list to set
+set to list
+list to array
+array to list
+
+primitive datatypes:
+int to string
+string to int
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
