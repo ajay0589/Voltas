@@ -1,0 +1,105 @@
+API - Application program interface
+
+
+Rest, Soap - protocol > set of rules
+
+Soap: Xml, WSDL(wisdel)
+
+Rest: Json, End points(URI's)
+
+End point(URI), Payload(request json), headers, request type
+
+request type:
+Create - Post
+Update - Put
+Read - Get
+Delete - Delete
+
+CRUD(create,read,update,delete)
+
+===================================================================
+Json:
+Object
+Array
+Key, Value
+
+{
+"key":"value",
+"key":"value",
+"keyArray":[
+{},
+{}
+]
+}
+
+===============================================================
+Response codes:
+100x
+200x - 201(created), 200(update) - success
+300x
+400x - cleint error - 404, 407(proxy)
+500x - server errors - 500
+
+=========================================================================
+given() 
+when()
+then()
+
+
+json payload,uri,headers,parameters - given
+POST/PUT send - when
+Response - validate - then
+
+https://rahulshettyacademy.com/maps/api/place/add/json
+https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=d5fdf40c9c999541a1d9c4ce0ac2a5dc
+https://rahulshettyacademy.com/maps/api/place/update/json
+
+UI + TestNG
+
+Rest API + Cucumber
+
+
+Cucumber, SQL
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

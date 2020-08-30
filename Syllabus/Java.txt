@@ -2,3 +2,63 @@ static -> non static  not possible
 static -> static possible
 
 instance -> static & non static(instance) possible
+
+
+=============================================================
+Java: 
+Exception handling
+Access modifiers (public, private, protected, default)
+
+JDBC
+API testing - Manual > Automation
+
+============================================================
+Selenium: 1, 2, 3, 4
+
+Selenium IDE - Katalon recorder - record & play tool
+Selenium RC - Obsolete- Externally run selenium server
+Selenium WebDriver 
+Selenium Grid - RemoteWebDriver, Desired Capabilities
+Hub - Nodes
+
+
+400min - 6.5 hrs > 2 testcases parallel 3.5 hrs
+
+3 ways to run test cases remotely:
+1. Selenium Grid
+2. Jenkins master slave configuration
+3. Cloud tools - AWS, Saucelabs, BrowserStack
+
+==================================================================
+MukeshOtwani
+Kartik
+Raghav Pal
+Naveen
+SDET
+
+RahulSetty
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
