@@ -1,0 +1,72 @@
+Databases
+
+CRUD
+
+C/U/D
+
+C - Create,Insert
+R - Select
+U - Update
+D - Delete
+
+
+Validate - Read
+
+Select queries:
+Aggregate functions
+Inner queries
+Joins
+
+Oracle
+DB2
+MySql - Opensource
+MongoDB
+PostGre
+
+===================================================
+
+Database Server
+ Database
+  Tables
+   data > rows & columns
+   
+   
+MySql server
+MySql workbench - IDE   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
