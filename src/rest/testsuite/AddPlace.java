@@ -6,6 +6,9 @@ import io.restassured.response.Response;
 import io.restassured.response.ResponseBody;
 
 import static org.hamcrest.Matchers.*;
+
+import org.testng.Assert;
+
 //import static org.hamcrest.CoreMatchers.*;
 import static io.restassured.RestAssured.*;
 
@@ -19,21 +22,26 @@ public class AddPlace {
 
 		RestAssured.baseURI = "https://rahulshettyacademy.com";
 
-		Response response = given().log().all().headers("Content-Type", "application/json").header("key", "qaclick123")
-				.body(json.returnJson()).when().post("maps/api/place/add/json").then().log().all().extract().response();
+		String response = given().log().all().headers("Content-Type", "application/json").header("key", "qaclick123")
+				.body(json.returnJson()).when().post("maps/api/place/add/json").then().log().all().extract().response()
+				.asString();
 
-		int statusCode = response.getStatusCode();
-		if (statusCode == 200) {
-			System.out.println("stattus code passed");
-		} else {
-			System.out.println("stattus code failed");
-		}
+		/*
+		 * int statusCode = response.getStatusCode(); if (statusCode == 200) {
+		 * System.out.println("stattus code passed"); } else {
+		 * System.out.println("stattus code failed"); }
+		 */
 
-		response.then().assertThat().body("status", equalTo("OK"));
+		// response.then().assertThat().body("status", equalTo("OK"));
 
-		ResponseBody responseBody = response.getBody();
+		// ResponseBody responseBody = response.getBody();
 
-		JsonPath obj = new JsonPath(responseBody.toString());
+		JsonPath jsonObj = new JsonPath(response);
+
+		String status = jsonObj.getString("status");
+		System.out.println("Status is: " + status);
+
+		Assert.assertEquals(status, "OK");
 
 	}
 

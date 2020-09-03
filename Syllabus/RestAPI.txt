@@ -61,7 +61,10 @@ Rest API + Cucumber
 
 Cucumber, SQL
 
-
+============================================
+Parsing 2 ways:
+Jackson DTO > data transfer objects > get methods
+JsonPath > jsonPath
 
 
 

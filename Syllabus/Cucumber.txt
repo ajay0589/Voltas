@@ -1,0 +1,26 @@
+Testcases:
+Scenario
+Scenario Outline
+
+Testdata:
+step parameters
+Data table
+Examples
+
+Writing testcases:
+Given
+When
+Then
+And
+But
+
+
+
+
+
+
+
+
+
+
+
