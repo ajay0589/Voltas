@@ -9,45 +9,44 @@ import static org.hamcrest.Matchers.*;
 
 import org.testng.Assert;
 
-//import static org.hamcrest.CoreMatchers.*;
 import static io.restassured.RestAssured.*;
 
 public class AddPlace {
 
-	ReadTestJson json;
+    ReadTestJson json;
 
-	public void runTest() throws Exception {
-		json = new ReadTestJson();
-		json.readJson();
+    public void runTest() throws Exception {
+        json = new ReadTestJson();
+        json.readJson();
 
-		RestAssured.baseURI = "https://rahulshettyacademy.com";
+        RestAssured.baseURI = "https://rahulshettyacademy.com";
 
-		String response = given().log().all().headers("Content-Type", "application/json").header("key", "qaclick123")
-				.body(json.returnJson()).when().post("maps/api/place/add/json").then().log().all().extract().response()
-				.asString();
+        String response = given().log().all().headers("Content-Type", "application/json").header("key", "qaclick123")
+                .body(json.returnJson()).when().post("maps/api/place/add/json").then().log().all().extract().response()
+                .asString();
 
-		/*
-		 * int statusCode = response.getStatusCode(); if (statusCode == 200) {
-		 * System.out.println("stattus code passed"); } else {
-		 * System.out.println("stattus code failed"); }
-		 */
+        /*
+         * int statusCode = response.getStatusCode(); if (statusCode == 200) {
+         * System.out.println("stattus code passed"); } else {
+         * System.out.println("stattus code failed"); }
+         */
 
-		// response.then().assertThat().body("status", equalTo("OK"));
+        // response.then().assertThat().body("status", equalTo("OK"));
 
-		// ResponseBody responseBody = response.getBody();
+        // ResponseBody responseBody = response.getBody();
 
-		JsonPath jsonObj = new JsonPath(response);
+        JsonPath jsonObj = new JsonPath(response);
 
-		String status = jsonObj.getString("status");
-		System.out.println("Status is: " + status);
+        String status = jsonObj.getString("status");
+        System.out.println("Status is: " + status);
 
-		Assert.assertEquals(status, "OK");
+        Assert.assertEquals(status, "OK");
 
-	}
+    }
 
-	public static void main(String[] args) throws Exception {
-		AddPlace obj = new AddPlace();
-		obj.runTest();
-	}
+    public static void main(String[] args) throws Exception {
+        AddPlace obj = new AddPlace();
+        obj.runTest();
+    }
 
 }

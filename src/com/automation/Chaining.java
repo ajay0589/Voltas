@@ -8,7 +8,7 @@ public class Chaining {
 
 		obj = new Chaining();
 
-		obj.test3().test4().test5();
+		obj.test3().test4().test5(); 
 
 	}
 
