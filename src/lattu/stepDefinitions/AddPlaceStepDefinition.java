@@ -9,16 +9,12 @@ import io.cucumber.java.en.When;
 import io.restassured.RestAssured;
 import io.restassured.specification.RequestSpecification;
 import io.restassured.specification.ResponseSpecification;
-import rest.testsuite.ReadTestJson;
 
-import io.restassured.RestAssured;
+
 import io.restassured.path.json.JsonPath;
-import io.restassured.response.Response;
-import io.restassured.response.ResponseBody;
-
-import static org.hamcrest.Matchers.*;
 
 import org.testng.Assert;
+import lattu.restSuite.ReadTestJson;
 
 import static io.restassured.RestAssured.*;
 
@@ -56,11 +52,6 @@ public class AddPlaceStepDefinition {
         System.out.println("hello SO");
     }
 
-    @Given("I read something {string}")
-    public void iReadSomething(String name) {
-        System.out.println(name);
-    }
-
     @Given("I pass data through data table")
     public void iPassDataThroughDataTable(DataTable data) {
         System.out.println(data.asMaps());
@@ -92,5 +83,10 @@ public class AddPlaceStepDefinition {
         System.out.println("Status is: " + status);
 
         Assert.assertEquals(status, "OK");
+    }
+
+    @Given("I read something {string}")
+    public void iRead_Something(String name) {
+        System.out.println(name);
     }
 }

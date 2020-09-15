@@ -1,11 +1,7 @@
-package rest.testsuite;
+package lattu.restSuite;
 
 import io.restassured.RestAssured;
 import io.restassured.path.json.JsonPath;
-import io.restassured.response.Response;
-import io.restassured.response.ResponseBody;
-
-import static org.hamcrest.Matchers.*;
 
 import org.testng.Assert;
 

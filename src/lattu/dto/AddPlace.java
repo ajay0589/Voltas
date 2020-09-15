@@ -1,5 +1,5 @@
 
-package com.dto;
+package lattu.dto;
 
 import java.util.List;
 import com.fasterxml.jackson.annotation.JsonInclude;

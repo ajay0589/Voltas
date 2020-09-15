@@ -1,8 +1,9 @@
 package runner;
 
+import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
 import io.cucumber.junit.Cucumber;
-import io.cucumber.junit.CucumberOptions;
+
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
@@ -11,7 +12,7 @@ import io.cucumber.junit.CucumberOptions;
         plugin = {"pretty",
                 "html:target/cucumberReports/cucumber-pretty.html", "json:target/cucumberReports/cucumber.json"},
         monochrome = true,
-        tags = "@restTest"
+        tags = "@helloName"
 )
 public class TestRunner {
 

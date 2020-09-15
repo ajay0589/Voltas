@@ -1,8 +1,5 @@
 Feature: It contains add place test cases
 
-  Background: this will before testcase
-    Given Before testcase
-
   @restTest
   Scenario: rest assured
     Given I read test data
@@ -14,12 +11,11 @@ Feature: It contains add place test cases
   Scenario: Add place testcase
     Given I print hello
 
-
   @removePlace
   Scenario: Add place testcase
     Given I remove hello
 
-
+  @helloName
   Scenario Outline: this is so testcase
     Given I read something "<name>"
     Examples:

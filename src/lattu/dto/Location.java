@@ -1,5 +1,5 @@
 
-package com.dto;
+package lattu.dto;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
