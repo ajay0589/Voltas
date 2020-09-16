@@ -31,7 +31,7 @@ public class SeleniumPractice {
         Map prefs = new HashMap();
         prefs.put("profile.default_content_settings.cookies", 2);
         ChromeOptions options = new ChromeOptions();
-        //  options.setExperimentalOptions("prefs", prefs);
+       // options.setExperimentalOption("", prefs);
 
         driver = new ChromeDriver(options);
 
